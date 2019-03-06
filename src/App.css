@@ -1,0 +1,9 @@
+.App_Container {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    align-items: center;
+
+    height: 100vh;
+    background-image: url("https://cdn.guidingtech.com/imager/media/assets/204512/Best-Captain-Marvel-Wallpapers-7_4d470f76dc99e18ad75087b1b8410ea9.jpg?1537357246")
+}
