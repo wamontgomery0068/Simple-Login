@@ -36,7 +36,23 @@ class Login extends Component {
                     <div className = "Middle_Text"> Further </div>
                     <div className = "Middle_Text"> Faster </div>
                 </div>
-                <div className = "Bottom_Section"></div>
+                <div className = "Bottom_Section">
+                    <p className = "Bottm_Text"> Username </p>
+                    <input 
+                        onChange = { (e) => this.handleUsernameChange( e.target.value )} 
+                        type = "text" 
+                        className = "Bottom_Input" 
+                    />
+                    <p className = "Bottm_Text"> Password </p>
+                    <input 
+                        onChange = { (e) => this.handlePasswordChange( e.target.value )} 
+                        type = "text" 
+                        className = "Bottom_Input" 
+                    />
+                    <button onClick = { this.handleLogin } className = "Bottom_Button">
+                        <p className = "Button_Text"> Submit </p>
+                    </button>
+                </div>
                 <div></div>
             </div>
         )
